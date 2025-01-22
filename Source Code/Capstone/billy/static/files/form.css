@@ -1,0 +1,94 @@
+/* General Reset */
+body, h1, p, label, select, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("IMG_6072.JPG");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling of the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #333;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* Form Container */
+#report-form {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Form Labels */
+#report-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Form Inputs and Textareas */
+#report-form input,
+#report-form select,
+#report-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* File Input Styling */
+#report-form input[type="file"] {
+    border: none;
+}
+
+/* Textarea Styling */
+#report-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Submit Button */
+#report-form button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#report-form button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 0.9rem;
+}

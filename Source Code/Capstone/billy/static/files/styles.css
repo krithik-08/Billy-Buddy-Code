@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #316b94;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d3ecff;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4a90e2, #316b94);
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background-color: #ff5e57;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #e64e45;
+}
+
+/* Chatbot Section */
+.chatbot {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eaf4fd;
+    border-top: 3px solid #4a90e2;
+}
+
+.chatbot h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.chatbot p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.chatbot button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.chatbot button:hover {
+    background-color: #316b94;
+}
+
+/* Community Section */
+.community {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 3px solid #4a90e2;
+}
+
+.community h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.community p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.community .card {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+}
+
+.community .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.community .card p {
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #316b94;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}

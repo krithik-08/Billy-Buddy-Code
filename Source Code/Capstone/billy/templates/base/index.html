@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberbullying Support Platform</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'files/styles.css' %}">
+    <style>
+        /* Styling for QR cards */
+        .community .card {
+            display: inline-block;
+            width: 250px;
+            padding: 15px;
+            margin: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .community .card img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 10px;
+        }
+        .community .card button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .community .card button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Cyberbullying Support Platform</h1>
+        <p>Providing comfort, safety, and resources for victims of cyberbullying</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#chatbot">Chatbot</a>
+        <a href="#community">Community</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <h2>End Cyberbullying, Together</h2>
+        <p>Empowering victims with support, anonymity, and real-time solutions.</p>
+        <a href="{% url 'Report Page' %}">
+            <button>Get Help Now</button>
+        </a>
+    </section>
+
+    <!-- Chatbot Section -->
+    <section id="chatbot" class="chatbot">
+        <h2>Meet Billy, Your Support Chatbot</h2>
+        <p>Billy listens to you, offers comfort, and helps you take action anonymously.</p>
+        <button>Start Chat</button>
+    </section>
+
+    <!-- Community Section -->
+<section id="community" class="community">
+    <h2>Join Our Supportive Community</h2>
+    <p>Share your experiences, connect with others, and learn coping strategies.</p>
+
+    <!-- Group 1 -->
+    <div class="card">
+        <h3>Rumours WhatsApp Group</h3>
+        <p>Connect with peers to share your experiences and get support.</p>
+        <img src="{% static 'files/Rumours.jpg' %}" alt="WhatsApp Group 1 QR Code">
+        <p>Or click here to join: 
+            <a href="https://chat.whatsapp.com/KAzwKLGn6bJ8AVdPPRNsLU" target="_blank">Rumours Group</a>
+        </p>
+    </div>
+
+    <!-- Group 2 -->
+    <div class="card">
+        <h3>Threats WhatsApp Group</h3>
+        <p>Another space to share and discuss with like-minded individuals.</p>
+        <img src="{% static 'files/threats.jpg' %}" alt="WhatsApp Group 2 QR Code">
+        <p>Or click here to join: 
+            <a href="https://chat.whatsapp.com/JNYwMpENcTW9OhQasj42eG" target="_blank">Threats Group</a>
+        </p>
+    </div>
+
+    <!-- Group 3 -->
+    <div class="card">
+        <h3>Harrasement WhatsApp</h3>
+        <p>A safe space for victims to receive advice and support.</p>
+        <img src="{% static 'files/sh.jpg' %}" alt="WhatsApp Group 3 QR Code">
+        <p>Or click here to join: 
+            <a href="https://chat.whatsapp.com/LWzTQuVBdHlAltxswlw503" target="_blank">Harrasement</a>
+        </p>
+    </div>
+</section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Cyberbullying Support Platform. All rights reserved.</p>
+        <p>Contact us: support@cyberhelp.com</p>
+    </footer>
+
+    <script>
+        // Open WhatsApp group link
+        function openGroup(groupLink) {
+            window.open(groupLink, '_blank');
+        }
+    </script>
+</body>
+</html>

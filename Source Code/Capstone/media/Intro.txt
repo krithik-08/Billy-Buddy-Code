@@ -1,0 +1,9 @@
+Good morning, Sir! I'm Mekala Charan Kumar from Kadapa, Andhra Pradesh. I am currently pursuing a BTech in Computer Science and Engineering with a specialization in AI and ML at Presidency University. I completed my pre-university education at Narayana Group of Colleges and my schooling at Balavikas High School in Kadapa.
+
+In terms of technical skills, I am proficient in Python, Java, and front-end technologies. I am also familiar with databases such as MySQL and MongoDB.
+
+Using these skills, I have worked on various projects, including developing a tutorial website for health and fitness, conducting a bike rental analysis, and creating an IoT-based weight sensor automated gate. I also hold certifications in Python, CSS, and Machine Learning from HackerRank and Simplilearn.
+
+During my time in college, I have actively participated in college expos and attended online webinars and workshops.
+
+
